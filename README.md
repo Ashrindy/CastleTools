@@ -26,4 +26,4 @@ $ make -j 8
 
 # Disclaimer
 
-Castle Mod Manager is not affiliated with or endorsed by the game's rights holders.
+Castle Tools is not affiliated with or endorsed by the game's rights holders.
