@@ -3,7 +3,7 @@ add_executable(castle-lib-tool
     "src/castle-lib-tool.cpp" 
     "src/archive-handler.cpp" 
     "src/commands.cpp" 
-    "src/model-handler.cpp"
+    #"src/model-handler.cpp"
 )
 target_include_directories(castle-lib-tool PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/src)
 target_link_libraries(castle-lib-tool castle-lib assimp)
