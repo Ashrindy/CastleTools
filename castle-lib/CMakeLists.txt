@@ -12,6 +12,7 @@ option(CASTLELIB_RDA_MULTITHREADED_COMPRESS "Use multi-threading for compressing
 
 target_compile_features(castle-lib PUBLIC cxx_std_20)
 target_include_directories(castle-lib PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)
+set(ZLIB_USE_STATIC_LIBS ON)
 find_package(ZLIB REQUIRED)
 target_link_libraries(castle-lib PRIVATE ZLIB::ZLIB)
 if(CASTLELIB_RDA_MULTITHREADED_UNCOMPRESS)
